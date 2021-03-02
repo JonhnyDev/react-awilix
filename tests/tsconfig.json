@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "include": ["."],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "types": ["react", "react-dom", "jest", "enzyme", "enzyme-adapter-react-16"],
+    "paths": {
+      "@jishida/react-awilix": ["../src"]
+    }
+  }
+}

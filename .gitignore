@@ -1,0 +1,10 @@
+.vscode/
+.cache/
+node_modules/
+coverage/
+build/
+dist/
+cjs/
+esm/
+types/
+*.tgz

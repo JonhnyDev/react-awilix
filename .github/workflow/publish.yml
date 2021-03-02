@@ -1,0 +1,22 @@
+on:
+  release:
+    types: [published]
+name: Publish
+jobs:
+  build:
+    name: Publish a package to npm registry
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+          registry-url: 'https://registry.npmjs.org'
+      - run: npm install -g can-npm-publish
+      - run: can-npm-publish --verbose
+      - run: npm install
+      - run: npm run test:all
+      - run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

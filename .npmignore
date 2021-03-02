@@ -1,0 +1,16 @@
+.vscode/
+.github/
+tests/
+coverage/
+src/
+scripts/
+.env
+.git*
+.prettier*
+package-lock.json
+jest.config.js
+rollup.config.js
+.editorconfig
+.eslintrc.yml
+*.tgz
+tsconfig*.json
