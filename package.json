@@ -1,6 +1,6 @@
 {
   "name": "react-awilix",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "year": "2021",
   "description": "This library provides a way to pass an AwilixContainer to a component using React Context API.",
   "main": "cjs/index.js",
