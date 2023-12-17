@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import { useContainer } from '@jishida/react-awilix';
+import { useContainer } from 'react-awilix';
 import { AwilixContainer } from 'awilix';
 
 test(`no configure`, () => {

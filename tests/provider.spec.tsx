@@ -6,7 +6,7 @@ import {
   CradleConsumer,
   ContainerConsumer,
   ContainerProvider,
-} from '@jishida/react-awilix';
+} from 'react-awilix';
 import { asValue, AwilixContainer, createContainer } from 'awilix';
 
 const containerDefault = createContainer();

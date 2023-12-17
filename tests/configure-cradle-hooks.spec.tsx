@@ -4,7 +4,7 @@ import {
   configureContext,
   ContainerProvider,
   useCradle,
-} from '@jishida/react-awilix';
+} from 'react-awilix';
 import { asValue, createContainer } from 'awilix';
 
 beforeAll(() => {

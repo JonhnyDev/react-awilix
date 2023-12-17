@@ -1,6 +1,6 @@
 {
-  "name": "@jishida/react-awilix",
-  "version": "0.1.0",
+  "name": "react-awilix",
+  "version": "0.1.1",
   "year": "2021",
   "description": "This library provides a way to pass an AwilixContainer to a component using React Context API.",
   "main": "cjs/index.js",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jishida/react-awilix.git"
+    "url": "git+https://github.com/JonhnyDev/react-awilix.git"
   },
   "keywords": [
     "awilix",
@@ -32,9 +32,9 @@
   "author": "Junki Ishida",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/jishida/react-awilix/issues"
+    "url": "https://github.com/JonhnyDev/react-awilix/issues"
   },
-  "homepage": "https://github.com/jishida/react-awilix#readme",
+  "homepage": "https://github.com/JonhnyDev/react-awilix#readme",
   "devDependencies": {
     "@babel/core": "^7.13.8",
     "@babel/plugin-transform-modules-commonjs": "^7.13.8",
@@ -74,7 +74,7 @@
     "typescript": "^4.1.5"
   },
   "peerDependencies": {
-    "react": "^16.8.0 || ^17.0.0",
+    "react": ">=16.8.0",
     "preact": "^10.0.0"
   },
   "peerDependenciesMeta": {
